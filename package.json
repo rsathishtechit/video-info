@@ -1,0 +1,15 @@
+{
+  "name": "videoinfo",
+  "version": "1.0.0",
+  "description": "electron app to display video duration",
+  "main": "index.js",
+  "scripts": {
+    "electron": "electron ."
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^1.7.6",
+    "fluent-ffmpeg": "^2.1.2"
+  }
+}
