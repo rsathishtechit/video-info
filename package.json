@@ -4,7 +4,8 @@
   "description": "electron app to display video duration",
   "main": "index.js",
   "scripts": {
-    "electron": "electron ."
+    "electron": "electron .",
+    "build": "rimraf videoninfo-* && electron-packager . --platform=darwin,win32,linux --arch=x64"
   },
   "author": "",
   "license": "ISC",
